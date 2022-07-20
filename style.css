@@ -98,8 +98,8 @@ body {
     transition: .5s;
 }
 
-.match-btn:hover {
-    background-color: #bc2525;
+.match-btn :hover {
+    background-color: #DD0000;
     cursor: pointer;
 }
 
@@ -133,7 +133,7 @@ body {
 
 .box-info a {
     padding: 5px 20px;
-    color: rgb(141, 141, 141);
+    color: #161616;
     text-decoration: none;
     border: 2px solid black;
     border-radius: 10px;
