@@ -5,16 +5,21 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+/*-------------------------------- 
+          Heading Style 
+----------------------------------*/
+
 .heading-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
     background-color: #161616;
     width: 1100px;
     height: 520px;
-    left: 140px;
-    top: 50px;
+    margin-left: 140px;
+    margin-top: 50px;
     border-radius: 30px;
 }
 
@@ -39,7 +44,7 @@ body {
 .heading-text input {
     color: white;
     font-size: 20px;
-    background-color: red;
+    background-color: #DD0000;
     padding: 10px 20px;
     border: 0;
     border-radius: 5px;
@@ -49,4 +54,159 @@ body {
 .poster-part {
     margin-top: 33px;
     margin-right: 79px;
+}
+
+/* -----------Blog Part Style -----------*/
+
+
+.all-items {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.match-blog-section {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    margin-left: 140px;
+    margin-right: 24px;
+    background-color: #161616;
+    border-radius: 15px;
+}
+
+.match-blog-section a {
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    padding: 17px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.match-blog-section .match-btn1 {
+    background-color: white;
+    color: black;
+}
+
+.match-blog-section .match-btn {
+    background-color: #e04747;
+    color: white;
+    transition: .5s;
+}
+
+.match-btn:hover {
+    background-color: #bc2525;
+    cursor: pointer;
+}
+
+/* box-style-start */
+
+
+.main-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-right: 140px;
+}
+
+.box {
+    width: 260px;
+    height: 330px;
+    background-color: rgb(248 248 248);
+    border-radius: 10px;
+}
+
+.box-info {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.box-image img {
+    width: 100%;
+}
+
+.box-info a {
+    padding: 5px 20px;
+    color: rgb(141, 141, 141);
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box-info h3 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.box-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.box-icon:last-child .icon1 {
+    margin-right: 60px;
+}
+
+.icon1 {
+    display: flex;
+    align-items: center;
+}
+
+.icon1 p {
+    margin-left: 10px;
+}
+
+
+/* Footer Section Style */
+
+footer {
+    height: 440px;
+    width: 100%;
+    background-color: #161616;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 80px 0px 30px 0px;
+}
+
+footer hr {
+    color: #FFFFFF;
+    width: 70%;
+    margin: auto;
+}
+
+.about {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.about p {
+    size: 15px;
+    color: #B9B9B9;
+    font-weight: 400;
+    margin: 0px 20px;
+}
+
+.social-media-icon {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.social-media-icon a {
+    text-decoration: none;
+    font-size: 25px;
+    margin: 0px 30px;
+    color: #B9B9B9;
 }
