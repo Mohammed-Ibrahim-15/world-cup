@@ -98,8 +98,8 @@ body {
     transition: .5s;
 }
 
-.match-btn :hover {
-    background-color: #DD0000;
+.match-btn:hover {
+    background-color: #bc2525;
     cursor: pointer;
 }
 
