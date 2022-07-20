@@ -149,10 +149,11 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    color: rgba(22, 22, 22, 0.7);
 }
 
 .box-icon:last-child .icon1 {
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .icon1 {
@@ -239,4 +240,116 @@ footer hr {
 .match-info p {
     color: #4D4D4D;
     font-size: 16px;
+}
+
+/* Media Queries */
+
+/* Mobile Device */
+
+@media only screen and (max-width: 688px) {
+
+
+
+    /* Heading Part */
+
+    .heading-container {
+
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 5px;
+
+    }
+
+    .heading-text {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        font-size: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 0;
+
+    }
+
+    .heading-text h1 {
+        size: 50%;
+        text-align: center;
+
+    }
+
+    .heading-text input {
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 20px;
+    }
+
+    .poster-part {
+        display: flex;
+        justify-content: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    /* Blog Part */
+
+    .all-items {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .match-blog-section {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        margin: 0;
+    }
+
+    .match-btn1 {
+        border: 1px solid gray;
+    }
+
+
+    .main-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+
+    }
+
+    /* Footer Part */
+
+    footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about p {
+        margin-top: 10px;
+    }
+
+    .social-media-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+
 }
